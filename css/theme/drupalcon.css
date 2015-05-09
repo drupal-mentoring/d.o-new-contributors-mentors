@@ -1,0 +1,101 @@
+@import url('black.css');
+
+.reveal .title-box {
+  background: #263254;
+  border: .25em solid #eacc83;
+  padding: 1.5em 2em 1em;
+  font-size: large;
+}
+
+.reveal .speaker-names {
+  background: #c62717;
+  color: #f5cf3f;
+  border: 6px solid #eacc83;
+  border-radius: 10px;
+  margin: -1em 8.5em;
+  padding: .75em;
+}
+
+.reveal h1, h2, h3, h4 {
+  font-family: Arial;
+  font-weight: normal;
+  color: #eacc83;
+}
+
+.reveal .speaker-names {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: x-large;
+  font-family: Arial;
+}
+
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+}
+
+.reveal small {
+  vertical-align: inherit;
+}
+
+
+.triangle-border {
+  position:relative;
+  padding:15px;
+  margin:1em 0 3em;
+  border:5px solid #5a8f00;
+  color:#333;
+  background:#fff;
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+
+.triangle-border:before {
+  content:"";
+  position:absolute;
+  bottom:-20px; /* value = - border-top-width - border-bottom-width */
+  left:40px; /* controls horizontal position */
+  border-width:20px 20px 0;
+  border-style:solid;
+  border-color:#eacc83 transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+/* creates the smaller  triangle */
+.triangle-border:after {
+  content:"";
+  position:absolute;
+  bottom:-13px; /* value = - border-top-width - border-bottom-width */
+  left:47px; /* value = (:before left) + (:before border-left) - (:after border-left) */
+  border-width:13px 13px 0;
+  border-style:solid;
+  border-color:#c62717 transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+/* Variant : top
+------------------------------------------ */
+
+/* creates the larger triangle */
+.triangle-border.top:before {
+  top:-20px; /* value = - border-top-width - border-bottom-width */
+  bottom:auto;
+  left:auto;
+  right:50%; /* controls horizontal position */
+  border-width:0 20px 20px;
+}
+
+/* creates the smaller  triangle */
+.triangle-border.top:after {
+  top:-13px; /* value = - border-top-width - border-bottom-width */
+  bottom:auto;
+  left:auto;
+  right:51.25%; /* value = (:before right) + (:before border-right) - (:after border-right) */
+  border-width:0 13px 13px;
+}
