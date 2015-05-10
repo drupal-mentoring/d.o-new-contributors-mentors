@@ -138,6 +138,6 @@ body {
   top:-13px; /* value = - border-top-width - border-bottom-width */
   bottom:auto;
   left:auto;
-  right:51.25%; /* value = (:before right) + (:before border-right) - (:after border-right) */
-  border-width:0 13px 13px;
+  right:51.1%; /* value = (:before right) + (:before border-right) - (:after border-right) */
+  border-width:0 14px 14px;
 }
