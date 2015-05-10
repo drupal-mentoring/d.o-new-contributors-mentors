@@ -8,17 +8,19 @@ body {
 .reveal .content-box {
   font-size: large;
   padding: 1.5em 2em 1em;
-  border: .25em solid #eacc83;
-  background: #263254;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .reveal .content-box.session-title {
   background: #263254;
   border: .25em solid #eacc83;
+  opacity: 1;
 }
 
 .reveal .content-box h1 {
   text-transform: none;
+  font-weight: 600;
 }
 
 .reveal .content-box.session-title h1 {
@@ -29,7 +31,8 @@ body {
   color: #6fdcf0;
 }
 
-.reveal li {
+.reveal li,
+.reveal p {
   margin-bottom: .5em;
   font-weight: 500;
   font-size: xx-large;
