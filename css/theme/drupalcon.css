@@ -7,7 +7,7 @@ body {
 
 .reveal .content-box {
   font-size: large;
-  padding: 1.5em 2em 1em;
+  padding: 3em 2em 3em;
   border: 0;
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -21,6 +21,18 @@ body {
 .reveal .content-box h1 {
   text-transform: none;
   font-weight: 600;
+}
+
+.reveal .photo-credit {
+  position: absolute;
+  font-size: large;
+  bottom: 1.5em;
+  color: #888;
+  font-family: 'Helvetica Neue';
+}
+
+.reveal .photo-credit a {
+  color: #ccc;
 }
 
 .reveal .content-box.session-title h1 {
@@ -43,7 +55,7 @@ body {
   color: #f5cf3f;
   border: 6px solid #eacc83;
   border-radius: 15px;
-  margin: -.75em 8.5em;
+  margin: -1em 8.5em;
   padding: .75em;
 }
 
