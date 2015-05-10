@@ -1,7 +1,8 @@
 @import url('black.css');
 
 body {
-  background: #23ceea;
+  /*background: #23ceea;*/
+  background: #000;
   font-family: 'Helvetica Neue';
 }
 
