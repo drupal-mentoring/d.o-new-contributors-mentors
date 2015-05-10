@@ -45,11 +45,18 @@ body {
 }
 
 .reveal li,
-.reveal p {
+.reveal p,
+.reveal blockquote {
   margin-bottom: .5em;
   font-weight: 500;
   font-size: xx-large;
   font-family: 'Helvetica Neue';
+}
+
+.reveal blockquote {
+  font-family: georgia, serif;
+  font-style: normal;
+  text-align: left;
 }
 .reveal .speaker-names {
   background: #c62717;
