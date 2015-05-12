@@ -55,6 +55,7 @@ body {
 
 .reveal blockquote {
   font-family: georgia, serif;
+  line-height: 1.6em;
   font-style: normal;
   text-align: left;
 }
